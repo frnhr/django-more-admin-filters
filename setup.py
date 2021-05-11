@@ -11,7 +11,7 @@ def read(filename):
         return file.read()
 
 
-version = __import__("more_admin_filters").__version__
+version = "1.1-dev"
 if '-dev' in version:
     dev_status = 'Development Status :: 3 - Alpha'
 elif '-beta' in version:
